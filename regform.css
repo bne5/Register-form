@@ -1,0 +1,55 @@
+#warning {
+    /*display: none;*/
+    /*background: antiquewhite;*/
+    /*color: black;*/
+    /*position: relative;*/
+    /*padding: 20px;*/
+    /*margin-top: 10px;*/
+}
+#warning p {
+    /*padding: 10px 35px;*/
+    /*font-size: 18px;*/
+}
+body {
+    font-family: Arial;
+}
+* {
+    box-sizing: border-box;
+}
+form {
+    border: 3px solid darkgray;
+    padding: 1% 1%;
+    margin: 10% 10%;
+}
+input[type=text], [type=number], [type=tel], [type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0px 22px 0px;
+    display: inline-block;
+    border: 1px solid dimgrey;
+    background: whitesmoke;
+}
+input[type=text]:focus, [type=number]:focus, [type=tel]:focus, [type=password]:focus {
+    background-color: #aaa;
+    outline: none;
+}
+h3 {
+    font-family: "Lucida Grande";
+}
+button {
+    background-color: gold;
+    color: black;
+    padding: auto;
+    margin: auto;
+    border: thin;
+    cursor: pointer;
+    width: 25%;
+    opacity: 0.7;
+}
+Button:hover {
+    opacity:1.5;
+}
+.clearbtn {
+    padding: auto;
+    background-color: cornflowerblue;
+}
