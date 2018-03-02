@@ -25,27 +25,27 @@
         <label>
             <b>Email</b>
         </label>
-        <input type="text" name="email" placeholder="usernam@hmail.com" required>
+        <input type="text" name="email" placeholder="usernam@hmail.com" required pattern=".+@.+.+">
         <br>
         <label>
             <b>Phone Number</b>
         </label>
-        <input type="tel" name="number" placeholder="XXX-XXX-XXXX" required>
+        <input type="tel" name="number" placeholder="1234567890" required pattern="[0-9]{3}-[0-9]{3}-{0-9]{4}" minlength="10" maxlength="10">
         <br>
         <label>
             <b>Age</b>
         </label>
-        <input type="number" name="number" placeholder="Number of times around the sun" required>
+        <input type="number" name="number" placeholder="Number of times around the sun" required min="1" max="150">
         <br>
         <label>
             <b>Password</b>
         </label>
-        <input type="password" id="psw" name="pasword" placeholder="At least 6 characters" required>
+        <input type="password" id="psw" name="pasword" placeholder="8-10 characters" required minlength="8" maxlength="10">
         <br>
         <label>
             <b>Password Confirmation</b>
         </label>
-        <input type="password" name="paswordcon" placeholder="Confirm password" required>
+        <input type="password" name="paswordcon" placeholder="Confirm password" required minlength="8" maxlength="10">
         <br>
 
         <p>
@@ -54,7 +54,7 @@
         <button type="submit" class="submit">
             Create account
         </button>
-        <button type="button" class="clearbtn">
+        <button type="reset" class="clearbtn">
             Clear Form
         </button>
         <hr>
